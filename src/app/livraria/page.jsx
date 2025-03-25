@@ -1,4 +1,5 @@
 import Header from "../components/header";
+import Footer from "../components/footer";
 import styles from "./livraria.module.css";
 
 export default function Home() {
@@ -141,6 +142,8 @@ export default function Home() {
   return (
     <div className={styles.bookstoreContainer}>
      <Header />
+     
+     <Footer />
     </div>
   );
 }
