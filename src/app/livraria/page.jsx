@@ -3,6 +3,7 @@ import Footer from "../components/footer";
 import Banner from "../components/banner";
 import Detach from "../components/detach";
 import Category from "../components/category";
+import Launch from "../components/launch";
 import styles from "./livraria.module.css";
 
 
@@ -13,6 +14,7 @@ export default function Home() {
      <Banner />
      <Detach />
      <Category />
+     <Launch />
      <Footer />
     </div>
   );
